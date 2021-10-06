@@ -1,0 +1,19 @@
+.section-footer {
+  background-color: $color-dark-blue-1;
+  padding: 3rem 1rem;
+}
+
+.footer {
+  justify-content: space-between;
+  align-items: center;
+
+  &__copyright {
+    padding: 1rem;
+
+    &--text {
+      font-size: 1.6rem;
+      color: white;
+      font-weight: 300;
+    }
+  }
+}

@@ -47,16 +47,51 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.footer__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.footer__item {
+  list-style: none;
+}
+
+.footer__link:link,
+.footer__link:visited {
+  text-decoration: none;
+  color: white;
+  font-size: 1.6rem;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.footer__link:hover,
+.footer__link:active {
+  opacity: 0.7;
+}
+
 .navigation {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 80%;
+          flex: 0 0 80%;
 }
 
 .navigation__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .navigation__item {
@@ -75,12 +110,39 @@ body {
   padding: 1rem;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
 }
 
 .navigation__link:hover, .navigation__link:active {
   border-bottom: 0.2rem solid #00c6dc;
   -webkit-transform: translateY(-0.5rem);
           transform: translateY(-0.5rem);
+}
+
+.section-footer {
+  background-color: #1c355e;
+  padding: 3rem 1rem;
+}
+
+.footer {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__copyright {
+  padding: 1rem;
+}
+
+.footer__copyright--text {
+  font-size: 1.6rem;
+  color: white;
+  font-weight: 300;
 }
 
 .row {
@@ -137,18 +199,28 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#00005f), to(#00002a));
-  background-image: linear-gradient(to top, #00005f, #00002a);
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #1c355e;
+  padding: 1rem;
 }
 
 .logo {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 15%;
           flex: 0 0 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .logo__image {
   height: 10rem;
   width: 10rem;
+  padding: 1rem;
 }
 /*# sourceMappingURL=page1Main.css.map */

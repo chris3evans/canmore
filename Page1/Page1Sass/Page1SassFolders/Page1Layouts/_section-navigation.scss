@@ -1,18 +1,19 @@
 .section-navigation {
   display: flex;
   align-items: center;
-  background-image: linear-gradient(
-    to top,
-    ($color-dark-blue-1),
-    ($color-dark-blue-2)
-  );
+  justify-content: space-between;
+  background-color: $color-dark-blue-1;
+  padding: 1rem;
 }
 
 .logo {
   flex: 0 0 15%;
+  display: flex;
+  justify-content: center;
 
   &__image {
     height: 10rem;
     width: 10rem;
+    padding: 1rem;
   }
 }

@@ -1,0 +1,25 @@
+.footer__links {
+}
+
+.footer__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer__item {
+  list-style: none;
+}
+
+.footer__link:link,
+.footer__link:visited {
+  text-decoration: none;
+  color: white;
+  font-size: 1.6rem;
+  transition: all 0.5s;
+}
+
+.footer__link:hover,
+.footer__link:active {
+  opacity: 0.7;
+}
