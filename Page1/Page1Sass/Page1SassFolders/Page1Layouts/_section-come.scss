@@ -1,0 +1,16 @@
+.section-come {
+  background-color: $color-dark-grey;
+
+  .come {
+    height: 30rem;
+    clip-path: polygon(79% 0, 100% 41%, 100% 100%, 0 100%, 0 0);
+    background: $color-dark-blue-3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__span {
+      font-size: 4rem;
+    }
+  }
+}

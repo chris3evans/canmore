@@ -1,0 +1,29 @@
+.activity {
+  &:not(:last-of-type) {
+    margin-bottom: 5rem;
+  }
+  &__title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+
+  &__content {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+  }
+
+  &__picture {
+    margin-right: 2rem;
+  }
+
+  &__image {
+    height: 10rem;
+    width: 10rem;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  }
+
+  &__description {
+  }
+}

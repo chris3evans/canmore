@@ -6,9 +6,16 @@
 @import "Page1SassFolders/Page1Base/typography";
 @import "Page1SassFolders/Page1Base/utilities";
 
+@import "Page1SassFolders/Page1Components/activity";
+@import "Page1SassFolders/Page1Components/button";
 @import "Page1SassFolders/Page1Components/footer-list";
 @import "Page1SassFolders/Page1Components/navigation-bar";
 
+@import "Page1SassFolders/Page1Layouts/section-activities";
+@import "Page1SassFolders/Page1Layouts/section-book";
+@import "Page1SassFolders/Page1Layouts/section-come";
+@import "Page1SassFolders/Page1Layouts/content-container";
 @import "Page1SassFolders/Page1Layouts/section-footer";
 @import "Page1SassFolders/Page1Layouts/grid";
 @import "Page1SassFolders/Page1Layouts/section-navigation";
+@import "Page1SassFolders/Page1Layouts/section-why";
