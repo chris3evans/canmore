@@ -1,0 +1,17 @@
+.section-hero {
+  height: 95vh;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(white, 0.5),
+      rgba(white, 0.5)
+    ),
+    url("../../../../Images/Hero-image.jpg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .heading {
+    text-align: center;
+  }
+}

@@ -1,0 +1,39 @@
+.button:link,
+.button:visited {
+  display: flex;
+  align-items: center;
+  border-radius: 6rem;
+  border: none;
+  background-color: $color-red;
+  padding: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.4s;
+  height: 10rem;
+}
+
+.button:hover {
+  color: $color-dark-red;
+  transform: translateY(-0.2rem);
+  box-shadow: 0rem 1rem 2rem rgba(black, 0.5);
+}
+
+.button:active {
+  transform: translateY(0rem);
+  box-shadow: none;
+}
+
+.button__text {
+  color: white;
+  text-transform: uppercase;
+  font-size: 4.5rem;
+  padding: 2rem 4rem;
+}
+
+.button__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+  color: white;
+}
