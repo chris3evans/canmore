@@ -1,0 +1,13 @@
+.section-information {
+  margin-bottom: 5rem;
+
+  .information-title-container {
+    display: flex;
+    justify-content: center;
+    background-color: $color-dark-blue-1;
+  }
+
+  .information-title {
+    text-align: center;
+  }
+}

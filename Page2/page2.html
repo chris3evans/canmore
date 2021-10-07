@@ -2,12 +2,197 @@
 <html lang="en">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="Page2Sass/page2Main.css" rel="stylesheet" />
-    <title>Page2</title>
+    <link rel="stylesheet" href="Page2Sass/page2Main.css" />
+    <link
+      rel="stylesheet"
+      href="../Icons/Linearicons-Free-v1.0.0/Web Font/style.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Canmore - Pg2</title>
   </head>
 
   <body>
-    <p>This is just some text on page TWO</p>
-    <a href="../Page3/page3.html">Go back to page 3</a>
+    <!--NAVIGATION-->
+    <header class="section-navigation">
+      <div class="logo">
+        <a href="../Page1/page1.html">
+          <img class="logo__image" src="../Images/Mock Logo.png" />
+        </a>
+      </div>
+      <div class="navigation">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">Travel Ideas</a>
+          </li>
+
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">Things to do</a>
+          </li>
+
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">Accommodations</a>
+          </li>
+
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">Plan your trip</a>
+          </li>
+
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">COVID-19</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!--MAIN CONTENT-->
+    <div class="section-information">
+      <div
+        class="
+          information-title-container
+          padding-top-small padding-bottom-small
+          margin-top-small margin-bottom-small
+        "
+      >
+        <h2 class="secondary__heading">
+          <span class="information-title font-white">Plan your trip</span>
+        </h2>
+      </div>
+
+      <div class="row">
+        <div class="col-1-of-3">
+          <div class="information" id="getting-here">
+            <div class="information__container">
+              <div class="information__title">
+                <h2 class="secondary__heading font-white">Getting here</h2>
+              </div>
+
+              <div class="information__text">
+                <p class="main-text font-white">
+                  You'll find us happily located on the eastern slopes of the
+                  Canadian Rockies, 88 kilometers (55 miles) west of Calgary,
+                  Alberta, and minutes away from Banff's east gate. The drive
+                  from Calgary's western city limit takes about one hour via the
+                  Trans-Canada Highway #1. From Calgary International Airport,
+                  it's 1.5 hours. Banff Airporter Frequent daily scheduled
+                  transportation between the Calgary International Airport and
+                  Canmore. Private charter services and activity transfers are
+                  also available.
+                </p>
+              </div>
+            </div>
+
+            <div class="information__button">
+              <a class="information__link" href="#">
+                <span class="information__link--text"> Learn more </span>
+                <i
+                  class="information__link--icon lnr lnr-arrow-right-circle"
+                ></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-1-of-3">
+          <div class="information" id="accomodation">
+            <div class="information__container">
+              <div class="information__title">
+                <h2 class="secondary__heading font-white">Accomodations</h2>
+              </div>
+
+              <div class="information__text">
+                <p class="main-text font-white">
+                  You started planning a romantic getaway, and you found the
+                  perfect quant bed and breakfast. But then your friends found
+                  out where you were going and thought it sounded like fun so
+                  you booked a nice hotel instead. THen your parents said they
+                  always wanted to go and found a mountain condo for all of you.
+                  But in the end you were glad you booked that quiet secluded
+                  lodge, just for the two of you.
+                </p>
+              </div>
+            </div>
+
+            <div class="information__button">
+              <a class="information__link" href="#">
+                <span class="information__link--text"> Learn more </span>
+                <i
+                  class="information__link--icon lnr lnr-arrow-right-circle"
+                ></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-1-of-3">
+          <div class="information" id="weather">
+            <div class="information__container">
+              <div class="information__title">
+                <h2 class="secondary__heading font-white">Weather</h2>
+              </div>
+
+              <div class="information__text">
+                <p class="main-text font-white">
+                  For the most part, the water in high alpine lakes,
+                  particularly glacier-fed ones, is COLD! On a warm summer day
+                  the water temperature might rise to 9 degrees C (48 F). As
+                  such, the water of the rivers that flow downstream from our
+                  Rocky Mountain lakes is also cold. While this doesn't make
+                  great swimming for humans, native fish love it! This kind of
+                  cold water is not great for us. Humans won't live long in this
+                  water, so plan any water trips carefully, wear a floatation
+                  jacket, and even a wet or dry suit.
+                </p>
+              </div>
+            </div>
+
+            <div class="information__button">
+              <a class="information__link" href="#">
+                <span class="information__link--text"> Learn more </span>
+                <i
+                  class="information__link--icon lnr lnr-arrow-right-circle"
+                ></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--FOOTER-->
+    <div class="section-footer">
+      <div class="row footer">
+        <div class="col-1-of-4">
+          <div class="footer__copyright">
+            <span class="footer__copyright--text"
+              >&copy; Christopher Evans 2021</span
+            >
+          </div>
+        </div>
+
+        <div class="col-3-of-4">
+          <div class="footer__links">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a class="footer__link" href="#">Site map</a>
+              </li>
+
+              <li class="footer__item">
+                <a class="footer__link" href="#">Terms & conditions</a>
+              </li>
+
+              <li class="footer__item">
+                <a class="footer__link" href="#">Privacy policy</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

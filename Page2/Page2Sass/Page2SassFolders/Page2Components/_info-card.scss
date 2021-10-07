@@ -1,0 +1,81 @@
+.information {
+  flex: 1;
+  padding: 1.5rem;
+
+  &__container {
+    background-image: linear-gradient(
+      to bottom,
+      rgba($color-blue-1, 0.7),
+      rgba($color-dark-blue-3, 0.7)
+    );
+    padding: 3.5rem;
+  }
+
+  &__title {
+    display: block;
+  }
+
+  &__text {
+    display: block;
+  }
+
+  &__button {
+    height: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__link {
+    background-color: $color-dark-blue-1;
+    padding: 2rem 4rem;
+    border: none;
+    border-radius: 10rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+
+    &--text {
+      font-size: 2rem;
+      color: white;
+      font-family: "Architects Daughter", cursive;
+      text-transform: uppercase;
+      margin-right: 1rem;
+    }
+
+    &--icon {
+      color: white;
+      font-size: 2rem;
+    }
+  }
+}
+
+#getting-here {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(white, 0.4),
+      rgba(white, 0.7)
+    ),
+    url("../../../../Images/getting-here-background-image.jpg");
+  background-size: cover;
+}
+
+#accomodation {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(white, 0.4),
+      rgba(white, 0.7)
+    ),
+    url("../../../../Images/accomodation-background-image.jpg");
+  background-size: cover;
+}
+
+#weather {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(white, 0.4),
+      rgba(white, 0.7)
+    ),
+    url("../../../../Images/weather-background-image.jpg");
+  background-size: cover;
+}

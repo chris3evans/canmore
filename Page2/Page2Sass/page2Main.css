@@ -44,10 +44,253 @@ html {
 body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: "Architects Daughter", cursive;
+  padding: 0.5rem;
+}
+
+.primary__heading {
+  font-size: 8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.secondary__heading {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.tertiary__heading {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+.main-text {
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+}
+
+.sub-heading {
+  font-size: 3rem;
+}
+
+.flex-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.font-white {
+  color: white;
+}
+
+.margin-bottom-small {
+  margin-bottom: 2rem;
+}
+
+.margin-bottom-med {
+  margin-bottom: 6rem;
+}
+
+.margin-bottom-large {
+  margin-bottom: 10rem;
+}
+
+.margin-top-small {
+  margin-top: 2rem;
+}
+
+.margin-top-med {
+  margin-top: 6rem;
+}
+
+.margin-top-large {
+  margin-top: 10rem;
+}
+
+.padding-bottom-small {
+  padding-bottom: 2rem;
+}
+
+.padding-bottom-med {
+  padding-bottom: 6rem;
+}
+
+.padding-bottom-large {
+  padding-bottom: 10rem;
+}
+
+.padding-top-small {
+  padding-top: 2rem;
+}
+
+.padding-top-med {
+  padding-top: 6rem;
+}
+
+.padding-top-large {
+  padding-top: 10rem;
+}
+
+.footer__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.footer__item {
+  list-style: none;
+}
+
+.footer__link:link,
+.footer__link:visited {
+  text-decoration: none;
+  color: white;
+  font-size: 1.6rem;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.footer__link:hover,
+.footer__link:active {
+  opacity: 0.7;
+}
+
+.information {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 1.5rem;
+}
+
+.information__container {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 220, 0.7)), to(rgba(0, 0, 42, 0.7)));
+  background-image: linear-gradient(to bottom, rgba(0, 0, 220, 0.7), rgba(0, 0, 42, 0.7));
+  padding: 3.5rem;
+}
+
+.information__title {
+  display: block;
+}
+
+.information__text {
+  display: block;
+}
+
+.information__button {
+  height: 12rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.information__link {
+  background-color: #1c355e;
+  padding: 2rem 4rem;
+  border: none;
+  border-radius: 10rem;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.information__link--text {
+  font-size: 2rem;
+  color: white;
+  font-family: "Architects Daughter", cursive;
+  text-transform: uppercase;
+  margin-right: 1rem;
+}
+
+.information__link--icon {
+  color: white;
+  font-size: 2rem;
+}
+
+#getting-here {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.4)), to(rgba(255, 255, 255, 0.7))), url("../../../../Images/getting-here-background-image.jpg");
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.7)), url("../../../../Images/getting-here-background-image.jpg");
+  background-size: cover;
+}
+
+#accomodation {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.4)), to(rgba(255, 255, 255, 0.7))), url("../../../../Images/accomodation-background-image.jpg");
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.7)), url("../../../../Images/accomodation-background-image.jpg");
+  background-size: cover;
+}
+
+#weather {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.4)), to(rgba(255, 255, 255, 0.7))), url("../../../../Images/weather-background-image.jpg");
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.7)), url("../../../../Images/weather-background-image.jpg");
+  background-size: cover;
+}
+
+.navigation {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 80%;
+          flex: 0 0 80%;
+}
+
+.navigation__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navigation__item {
+  list-style: none;
+}
+
+.navigation__item:not(:last-of-type) {
+  margin-right: 2rem;
+}
+
+.navigation__link:link, .navigation__link:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2.2rem;
+  color: white;
+  padding: 1rem;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.navigation__link:hover, .navigation__link:active {
+  border-bottom: 0.2rem solid #00c6dc;
+  -webkit-transform: translateY(-0.5rem);
+          transform: translateY(-0.5rem);
 }
 
 .row {
-  max-width: 114rem;
+  max-width: 145rem;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -91,5 +334,80 @@ body {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 calc( 3 * ((100% - (3 * 6rem)) / 4) + (2 * 6rem));
           flex: 0 0 calc( 3 * ((100% - (3 * 6rem)) / 4) + (2 * 6rem));
+}
+
+.section-footer {
+  background-color: #1c355e;
+  padding: 3rem 1rem;
+}
+
+.footer {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__copyright {
+  padding: 1rem;
+}
+
+.footer__copyright--text {
+  font-size: 1.6rem;
+  color: white;
+  font-weight: 300;
+}
+
+.section-information {
+  margin-bottom: 5rem;
+}
+
+.section-information .information-title-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #1c355e;
+}
+
+.section-information .information-title {
+  text-align: center;
+}
+
+.section-navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #1c355e;
+  padding: 1rem;
+}
+
+.logo {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 15%;
+          flex: 0 0 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.logo__image {
+  height: 10rem;
+  width: 10rem;
+  padding: 1rem;
+  cursor: pointer;
 }
 /*# sourceMappingURL=page2Main.css.map */

@@ -1,0 +1,36 @@
+.navigation {
+  flex: 0 0 80%;
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__item {
+    list-style: none;
+
+    &:not(:last-of-type) {
+      margin-right: 2rem;
+    }
+  }
+
+  &__link:link,
+  &__link:visited {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 2.2rem;
+    color: white;
+    padding: 1rem;
+    transition: all 0.5s;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+
+  &__link:hover,
+  &__link:active {
+    border-bottom: 0.2rem solid $color-light-blue-1;
+    transform: translateY(-0.5rem);
+  }
+}

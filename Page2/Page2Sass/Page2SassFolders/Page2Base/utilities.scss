@@ -1,0 +1,56 @@
+// LAYOUT
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+// FONTS / COLORS
+
+.font-white {
+  color: white;
+}
+
+// MARGINS
+
+.margin-bottom-small {
+  margin-bottom: 2rem;
+}
+.margin-bottom-med {
+  margin-bottom: 6rem;
+}
+.margin-bottom-large {
+  margin-bottom: 10rem;
+}
+
+.margin-top-small {
+  margin-top: 2rem;
+}
+.margin-top-med {
+  margin-top: 6rem;
+}
+.margin-top-large {
+  margin-top: 10rem;
+}
+
+// PADDINGS
+
+.padding-bottom-small {
+  padding-bottom: 2rem;
+}
+.padding-bottom-med {
+  padding-bottom: 6rem;
+}
+.padding-bottom-large {
+  padding-bottom: 10rem;
+}
+
+.padding-top-small {
+  padding-top: 2rem;
+}
+.padding-top-med {
+  padding-top: 6rem;
+}
+.padding-top-large {
+  padding-top: 10rem;
+}
