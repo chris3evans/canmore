@@ -5,6 +5,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @include respond(phone-big) {
+      flex-direction: column;
+    }
   }
 
   &__item {
@@ -12,6 +16,10 @@
 
     &:not(:last-of-type) {
       margin-right: 2rem;
+
+      @include respond(phone-big) {
+        margin-right: 0rem;
+      }
     }
   }
 
@@ -26,6 +34,14 @@
     text-align: center;
     text-transform: uppercase;
     font-weight: 400;
+
+    @include respond(tab-port) {
+      font-size: 1.8rem;
+      padding: 0rem;
+    }
+    @include respond(phone-big) {
+      font-size: 1.6rem;
+    }
   }
 
   &__link:hover,

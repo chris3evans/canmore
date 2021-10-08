@@ -1,6 +1,6 @@
 .information {
-  flex: 1;
   padding: 1.5rem;
+  height: 100%;
 
   &__container {
     background-image: linear-gradient(
@@ -9,6 +9,8 @@
       rgba($color-dark-blue-3, 0.7)
     );
     padding: 3.5rem;
+
+    height: 85%;
   }
 
   &__title {

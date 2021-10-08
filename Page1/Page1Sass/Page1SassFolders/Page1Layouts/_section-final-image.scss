@@ -3,4 +3,8 @@
   background-image: url("../../../../Images/Final-main-image.jpg");
   background-size: cover;
   background-position: center;
+
+  @include respond(phone-big) {
+    height: 35rem;
+  }
 }

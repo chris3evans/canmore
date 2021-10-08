@@ -12,15 +12,37 @@
     display: flex;
     align-items: center;
     margin: 1rem;
+
+    @include respond(phone-big) {
+      display: block;
+    }
+  }
+
+  &__description {
+    @include respond(phone-big) {
+      padding: 0.5rem 2rem;
+    }
   }
 
   &__picture {
     margin-right: 2rem;
+
+    @include respond(phone-big) {
+      margin-right: 0rem;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 2rem;
+    }
   }
 
   &__image {
     height: 10rem;
     width: 10rem;
     clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+
+    @include respond(phone-big) {
+      height: 18rem;
+      width: 18rem;
+    }
   }
 }

@@ -8,6 +8,10 @@
           flex-direction: column;
 }
 
+.stretch {
+  grid-auto-rows: 1fr;
+}
+
 .font-white {
   color: white;
 }

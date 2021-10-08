@@ -1,3 +1,7 @@
 .content-container {
   display: flex;
+
+  @include respond(phone-big) {
+    display: block;
+  }
 }

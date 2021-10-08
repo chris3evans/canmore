@@ -7,6 +7,10 @@
     background-color: $color-dark-grey;
     width: 100%;
     clip-path: polygon(35% 0, 100% 0, 100% 100%, 0% 100%);
+
+    @include respond(phone-big) {
+      clip-path: polygon(20% 0, 100% 0, 100% 100%, 0% 100%);
+    }
   }
 
   .book__container {
@@ -17,6 +21,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    @include respond(phone-big) {
+      clip-path: polygon(20% 0, 100% 0, 100% 100%, 40% 100%, 7% 65%);
+    }
   }
 
   .button__container {
