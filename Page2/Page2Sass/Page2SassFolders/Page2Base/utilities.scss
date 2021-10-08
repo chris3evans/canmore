@@ -4,8 +4,10 @@
   display: flex;
   flex-direction: column;
 }
-.stretch {
-  grid-auto-rows: 1fr;
+.block-tab {
+  @include respond(tab-land) {
+    display: block !important;
+  }
 }
 
 // FONTS / COLORS
@@ -18,6 +20,10 @@
 
 .margin-bottom-small {
   margin-bottom: 2rem;
+
+  @include respond(phone-big) {
+    margin-bottom: 1rem;
+  }
 }
 .margin-bottom-med {
   margin-bottom: 6rem;
@@ -28,6 +34,10 @@
 
 .margin-top-small {
   margin-top: 2rem;
+
+  @include respond(phone-big) {
+    margin-top: 1rem;
+  }
 }
 .margin-top-med {
   margin-top: 6rem;
@@ -40,6 +50,10 @@
 
 .padding-bottom-small {
   padding-bottom: 2rem;
+
+  @include respond(phone-big) {
+    padding-bottom: 1rem;
+  }
 }
 .padding-bottom-med {
   padding-bottom: 6rem;
@@ -50,6 +64,10 @@
 
 .padding-top-small {
   padding-top: 2rem;
+
+  @include respond(phone-big) {
+    padding-top: 1rem;
+  }
 }
 .padding-top-med {
   padding-top: 6rem;

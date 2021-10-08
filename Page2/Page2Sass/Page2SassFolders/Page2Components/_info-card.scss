@@ -2,6 +2,10 @@
   padding: 1.5rem;
   height: 100%;
 
+  @include respond(tab-land) {
+    margin: 5rem 2rem;
+  }
+
   &__container {
     background-image: linear-gradient(
       to bottom,
@@ -15,6 +19,13 @@
 
   &__title {
     display: block;
+
+    @include respond(tab-land) {
+      margin-bottom: 2rem;
+    }
+    @include respond(tab-port) {
+      text-align: center;
+    }
   }
 
   &__text {
